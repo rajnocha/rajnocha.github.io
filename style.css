@@ -1,0 +1,175 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: black;
+	scroll-behavior: smooth;
+	transition: 0.4s;
+	text-align: center;
+	list-style-position: inside;
+}
+
+header{
+	width: 100%;
+	height: 230px;
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,240,251,1) 31%, rgba(255,226,248,1) 100%);
+	/*background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,248,1) 27%, rgba(230,222,233,1) 100%);*/
+	/*background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);*/
+	}
+
+
+header h1{
+	font-size: 83px;
+	font-family: 'Fragment Mono', monospace;
+	padding-top: 10px;
+}
+
+header h2{
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 22px;
+}
+
+#socials{
+	padding-top: 35px;
+}
+
+#socials a{
+	display: inline-block;
+	width: 160px;
+}
+
+#socials a:hover{
+	opacity: 0.7;
+}
+
+.container{
+	width: 100%;
+	margin-top: 50px;
+
+}
+
+#item{
+	margin-top: 20px;
+	width: 350px;
+	height: 500px;
+	display: inline-block;
+	background-color: rgba(246, 255, 254, 0.2);
+	border-radius: 10px;
+}
+
+#item:hover{
+	width: 360px;
+	height: 520px;
+}
+
+.container h1{
+	font-family: 'Roboto Flex', sans-serif;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	font-size: 25px;
+}
+
+#item li{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 21px;
+	padding-bottom: 1px;
+	padding-left: 8px;
+	text-align: left;
+}
+
+#item h2{
+	font-family: 'Roboto Flex', sans-serif;
+	color: orange;
+}
+
+#item h1:hover{
+	color: orange;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+
+footer p{
+	color: white;
+	font-family: 'Barlow', sans-serif;
+	margin-top: 30px;
+	padding-top: 18px;
+}
+
+.contact{
+	width: 100%;
+	margin-top: 15px;
+
+
+}
+
+#item-c{
+	width: 180px;
+	height: 200px;
+	display: inline-block;
+	font-family: 'Roboto Flex', sans-serif;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+#item-c p{
+	padding-top: 10px;
+}
+
+.email{
+	font-family: 'Fragment Mono', monospace;
+	margin-top: 35
+}
+
+.email h1{
+	font-size: 50px;
+}
+
+.email input{
+	width: 150px;
+	margin-top: 2px;
+	height: 30px;
+	border-radius: 4px;
+	border-width: thin;
+	font-family: 'Roboto Flex', sans-serif;
+	text-align: left;
+	padding-left: 5px;
+	border-style: solid;
+	border-color: dimgrey;
+}
+
+.email textarea{
+	font-family: 'Roboto Flex', sans-serif;
+	width: 300px;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-left: 5px;
+	text-align: left;
+	border-radius: 5x;
+	border-style: solid;
+}
+
+.email button{
+	margin-top: 10px;
+	font-size: 30px;
+	width: 170px;
+	height: 45px;
+	border-width: thin;
+	border-radius: 5px;
+	background-color: #FAE8EB;
+	box-sizing: border-box;
+	font-family:'Roboto',sans-serif;
+	font-weight: 100px;
+	border-color: white;
+	border-style: solid;
+	color: black;
+	font-family: 'Fragment Mono', monospace;
+}
+
+.col{
+	display: inline-block;
+}
