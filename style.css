@@ -93,6 +93,7 @@ header h2{
 
 #item h2{
 	font-family: 'Roboto Flex', sans-serif;
+	font-size: 40px;
 	color: orange;
 	padding-top: 7px;
 }
