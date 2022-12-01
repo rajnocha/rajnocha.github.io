@@ -45,14 +45,17 @@ header h2{
 .container{
 	width: 100%;
 	margin-top: 50px;
-
+	display: flex;
+  	flex-wrap: wrap;
+	align-items: flex-start;
+  	align-content: flex-start;
+  	justify-content: center;
 }
 
 #item{
-	margin-top: 20px;
+	margin-top: 30px;
 	width: 350px;
-	height: 500px;
-	display: inline-block;
+	height: auto;
 	background-color: rgba(246, 255, 254, 0.2);
 	border-radius: 10px;
 }
@@ -60,6 +63,17 @@ header h2{
 #item:hover{
 	width: 360px;
 	height: 520px;
+}
+
+#item a{
+	font-style: italic;
+	text-decoration: underline;
+	color: #0970e6
+}
+
+.cena{
+	font-family: 'Roboto Flex', sans-serif;
+	color: orange;
 }
 
 .container h1{
@@ -80,6 +94,7 @@ header h2{
 #item h2{
 	font-family: 'Roboto Flex', sans-serif;
 	color: orange;
+	padding-top: 7px;
 }
 
 #item h1:hover{
@@ -102,8 +117,6 @@ footer p{
 .contact{
 	width: 100%;
 	margin-top: 15px;
-
-
 }
 
 #item-c{
@@ -120,9 +133,43 @@ footer p{
 	padding-top: 10px;
 }
 
+#bottom{
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+  	flex-wrap: wrap;
+  	align-items: flex-start;
+  	justify-content: center;
+}
+
+.row{
+	width: 100%
+	height: 300px;
+
+}
+
 .email{
 	font-family: 'Fragment Mono', monospace;
-	margin-top: 35
+}
+.about{
+	width: 330px;
+	margin-bottom: 20px;
+}
+
+.about h2{
+	font-size: 40px;
+	font-family: 'Fragment Mono', monospace;
+	padding-bottom: 10px;
+}
+
+.about h3{
+	font-size: 25px;
+	font-family: 'Roboto Flex', sans-serif;
+}
+
+.about h4{
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 21px;
 }
 
 .email h1{
